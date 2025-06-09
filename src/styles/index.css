@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: #fdf6e3;
+}
+
+button:focus {
+  outline: none;
+}
