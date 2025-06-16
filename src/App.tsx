@@ -1,5 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
 import BingoBoard from './components/BingoBoard';
 
 function App() {
