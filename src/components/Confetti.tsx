@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Confetti() {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-white/70 z-50">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import BingoTile from './BingoTile';
 import Confetti from './Confetti';
 import { generateBoard, checkBingo } from '../utils/bingoUtils';

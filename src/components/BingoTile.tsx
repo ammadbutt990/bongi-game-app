@@ -1,4 +1,3 @@
-import React from 'react';
 
 function BingoTile({ tileNumber, phrase, marked, onClick, disabled, highlight }: {
   tileNumber: number;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function DiceRoll({
     value,
@@ -16,7 +16,7 @@ function DiceRoll({
         if (disabled || rolling) return;
 
         setRolling(true);
-        
+
         const interval = setInterval(() => {
             setDisplayValue(Math.floor(Math.random() * 24) + 1);
         }, 80);
@@ -27,7 +27,7 @@ function DiceRoll({
             setRolling(false);
         }, 500);
     };
-    
+
     useEffect(() => {
         if (!rolling && value !== 0) {
             setDisplayValue(value);
